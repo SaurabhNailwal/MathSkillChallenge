@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout" android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:background="@color/background_color" tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="@string/quiz_title"
+        android:textSize="@dimen/title_size"
+        android:id="@+id/titleTextView"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/questionNumberTextView"
+        android:textColor="@color/text_color"
+        android:textSize="@dimen/text_size"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="@dimen/question_box_width"
+        android:layout_height="@dimen/question_box_height"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:id="@+id/questionDisplayTextView"
+        android:textColor="@color/text_color"
+        android:gravity="center"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/guess_answer"
+        android:textColor="@color/text_color"
+        android:id="@+id/guessSolutionTextView"
+        android:textSize="@dimen/text_size"
+        android:gravity="center"/>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/buttonTableLayout"
+        android:layout_weight="1"
+        android:stretchColumns="0,1,2" >
+
+        <TableRow android:id="@+id/tableRow0"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:orientation="horizontal"></TableRow>
+
+        <TableRow android:id="@+id/tableRow1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></TableRow>
+
+        <TableRow android:id="@+id/tableRow2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"></TableRow>
+
+        </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/answerTextView"
+        android:textSize="@dimen/answer_size" android:textStyle="bold"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+</LinearLayout>

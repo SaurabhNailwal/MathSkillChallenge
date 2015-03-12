@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="action_settings">Settings</string>
+    <string name="app_name">MathSkillChallenge</string>
+    <string name="correct">correct</string>
+    <string name="incorrect">Incorrect!</string>
+    <string name="quiz_title">TEN QUESTION MATH QUIZ</string>
+    <string name="guess_answer">Guess the Answer</string>
+    <string name="restart_quiz">Restart Quiz</string>
+    <string name="play_again">Play Again</string>
+    <string name="choices">Select the Number of Choices</string>
+    <string name="problem_types">Select The Type Of Problems</string>
+    <string name="guesses">guesses</string>
+    <string name="of">of</string>
+    <string name="ok">OK</string>
+    <string name="question">Question</string>
+    <string-array name="guessesList">
+        <item>3</item>
+        <item>6</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="problemTypes">
+        <item>All</item>
+        <item>Addition</item>
+        <item>Subtraction</item>
+        <item>Multiplication</item>
+        <item>Division</item>
+    </string-array>
+
+</resources>
